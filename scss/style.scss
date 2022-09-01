@@ -7,14 +7,16 @@
 $color-text-body: rgba(0, 0, 0, .8);
 $color-text-headings: rgba(0, 0, 0, 1);
 $color-accent: rgba(234, 194, 222, 1);
-$color-link: rgba(221, 157, 202, 1);
-$color-link-darker: rgba(203, 169, 193, 1);
+$color-link: rgba(163, 209, 200, 1);
+$color-link-darker: rgba(121, 169, 159, 1);
 $color-light-accent: rgba(122, 203, 157, 1);
-$color-dark-accent: rgba(90, 132, 108, 1);
+$color-dark-accent: rgb(0, 0, 0);
 
 
-$font-family-sans: 'forma-djr-micro', Helvetica, Arial, sans-serif;
-$font-family-serif: 'utopia-std', serif;
+$font-family-sans: 'p22-underground', sans-serif;
+$font-family-serif: 'bely', serif;
+$font-family-display: 'bely-display', sans-serif;
+
 
 // BREAKPOINTS
 $breakpoint-small: 768px;

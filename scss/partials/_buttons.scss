@@ -1,9 +1,32 @@
 /* BUTTONS */
 
-.button,
-button {
+.button1 {
     display: inline-block;
     background-color: $color-link;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: .5em;
+    margin: 1em .5em 1em .5em;
+
+    &:hover {
+        color: white;
+        animation: pulse1 750ms;
+        box-shadow: 0 0 0 .75em transparent;
+    }
+
+    @keyframes pulse1 {
+        0% {
+            box-shadow: 0 0 0 0 $color-link;
+
+        }
+    }
+
+}
+
+.button2 {
+    display: inline-block;
+    background-color: $color-link-darker;
     color: white;
     text-decoration: none;
     padding: 1em;
@@ -12,8 +35,14 @@ button {
 
     &:hover {
         color: white;
-        background-color: $color-link-darker;
-        border-radius: 1em;
-        transition: ease-in 250ms;
+        animation: pulse2 750ms;
+        box-shadow: 0 0 0 .75em transparent;
     }
+
+    @keyframes pulse2 {
+        0% {
+            box-shadow: 0 0 0 0 $color-link-darker;
+        }
+    }
+
 }
