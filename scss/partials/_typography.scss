@@ -1,12 +1,13 @@
 /* BASE COLORS */
 body {
-    color: $color-text-body;
+    color: $color-text-body-dark;
 }
 
 h1,
 h2,
-h3 {
-    color: $color-text-headings;
+h3,
+p {
+    color: $color-text-body-light;
 }
 
 /* BASE TEXT FONTS */
@@ -24,7 +25,7 @@ h3 {
 }
 
 .headline {
-    font-family: $font-family-display;
+    font-family: $font-family-sans;
 }
 
 /* BASE TYPOGRAPHY */
@@ -78,10 +79,10 @@ p {
 /* LINKS */
 
 a {
-    color: $color-link;
+    color: $color-text-body-dark;
 
     &:hover {
-        color: $color-link-darker;
+        color: $color-green-dark;
     }
 }
 
@@ -98,15 +99,15 @@ hr {
 
 .headline {
     font-size: 4rem;
-    font-weight: normal;
+    font-weight: 900;
     line-height: 1;
     margin: 0;
-    color: $color-accent;
+    color: $color-text-body-light;
 }
 
 .subheadline {
     font-weight: normal;
     font-size: 2.5rem;
     margin: .25em 0;
-    color: $color-light-accent;
+    color: $color-text-body-light;
 }

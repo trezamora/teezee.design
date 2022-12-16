@@ -4,18 +4,19 @@
 }
 
 // VARIABLES
-$color-text-body: rgba(0, 0, 0, .8);
-$color-text-headings: rgba(0, 0, 0, 1);
-$color-accent: rgba(234, 194, 222, 1);
-$color-link: rgba(163, 209, 200, 1);
-$color-link-darker: rgba(121, 169, 159, 1);
-$color-light-accent: rgba(122, 203, 157, 1);
-$color-dark-accent: rgb(0, 0, 0);
+$color-background-light: rgba(244, 244, 244, 1);
+$color-background-dark: rgba(24, 24, 24, 1);
+$color-text-body-light: rgba(255, 255, 255, 0.8);
+$color-text-body-dark: rgba(0, 0, 0, .8);
+$color-green-light: rgba(84, 140, 47, 1);
+$color-green-dark: rgba(16, 73, 17, 1);
+$color-yellow: rgba(255, 212, 73, 1);
+$color-orange: rgba(249, 166, 32, 1);
 
 
-$font-family-sans: 'p22-underground', sans-serif;
-$font-family-serif: 'bely', serif;
-$font-family-display: 'bely-display', sans-serif;
+$font-family-sans: 'montserrat', sans-serif;
+$font-family-sans-alt: 'montserrat-alternates', sans-serif;
+$font-family-script: 'funkydori', sans-serif;
 
 
 // BREAKPOINTS

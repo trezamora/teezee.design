@@ -1,5 +1,9 @@
 /* SITE STRUCTURE */
 
+body {
+    background: $color-background-dark;
+}
+
 .site-header {
     position: absolute;
     width: 100%;
@@ -9,7 +13,7 @@
     align-items: center;
 
     a {
-        color: white;
+        color: $color-text-body-light;
         text-decoration: none;
     }
 
@@ -32,13 +36,13 @@
 /* SITE FOOTER */
 
 .site-footer {
-    background: $color-dark-accent;
-    padding: 1em;
+    background: $color-background-dark;
+    padding: 2em;
     display: flex;
     justify-content: center;
 
     a {
-        color: white;
+        color: $color-text-body-light;
         text-decoration: none;
     }
 }
@@ -73,8 +77,8 @@ section {
 
 .hero {
     padding: 6em 0;
-    color: white;
-    background: $color-dark-accent;
+    color: $color-text-body-light;
+    background: $color-background-dark;
     text-align: center;
     min-height: 100vh;
     display: grid;
@@ -82,7 +86,7 @@ section {
 
     h1 {
         margin-bottom: .25em;
-        color: white;
+        color: $color-text-body-light;
     }
 
     p {

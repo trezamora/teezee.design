@@ -2,7 +2,7 @@
 
 .button1 {
     display: inline-block;
-    background-color: $color-link;
+    background-color: $color-yellow;
     color: white;
     text-decoration: none;
     padding: 1em;
@@ -17,7 +17,7 @@
 
     @keyframes pulse1 {
         0% {
-            box-shadow: 0 0 0 0 $color-link;
+            box-shadow: 0 0 0 0 $color-yellow;
 
         }
     }
@@ -26,7 +26,7 @@
 
 .button2 {
     display: inline-block;
-    background-color: $color-link-darker;
+    background-color: $color-yellow;
     color: white;
     text-decoration: none;
     padding: 1em;
@@ -41,7 +41,7 @@
 
     @keyframes pulse2 {
         0% {
-            box-shadow: 0 0 0 0 $color-link-darker;
+            box-shadow: 0 0 0 0 $color-yellow;
         }
     }
 

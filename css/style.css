@@ -33,13 +33,14 @@ body {
 
 h1,
 h2,
-h3 {
-  color: rgb(0, 0, 0);
+h3,
+p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* BASE TEXT FONTS */
 body {
-  font-family: "p22-underground", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -47,11 +48,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "p22-underground", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 .headline {
-  font-family: "bely-display", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 /* BASE TYPOGRAPHY */
@@ -70,7 +71,7 @@ p {
 /* SECTION HEADING */
 .section-heading {
   font-size: 1rem;
-  font-family: "p22-underground", sans-serif;
+  font-family: "montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0 0 0.5em 0;
@@ -100,10 +101,10 @@ p {
 
 /* LINKS */
 a {
-  color: rgb(163, 209, 200);
+  color: rgba(0, 0, 0, 0.8);
 }
 a:hover {
-  color: rgb(121, 169, 159);
+  color: rgb(16, 73, 17);
 }
 
 /* HORIZONTAL LINE */
@@ -117,23 +118,23 @@ hr {
 /* TYPE SPECIMEN */
 .headline {
   font-size: 4rem;
-  font-weight: normal;
+  font-weight: 900;
   line-height: 1;
   margin: 0;
-  color: rgb(234, 194, 222);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .subheadline {
   font-weight: normal;
   font-size: 2.5rem;
   margin: 0.25em 0;
-  color: rgb(122, 203, 157);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* BUTTONS */
 .button1 {
   display: inline-block;
-  background-color: rgb(163, 209, 200);
+  background-color: rgb(255, 212, 73);
   color: white;
   text-decoration: none;
   padding: 1em;
@@ -149,20 +150,20 @@ hr {
 }
 @-webkit-keyframes pulse1 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(163, 209, 200);
-            box-shadow: 0 0 0 0 rgb(163, 209, 200);
+    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 73);
+            box-shadow: 0 0 0 0 rgb(255, 212, 73);
   }
 }
 @keyframes pulse1 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(163, 209, 200);
-            box-shadow: 0 0 0 0 rgb(163, 209, 200);
+    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 73);
+            box-shadow: 0 0 0 0 rgb(255, 212, 73);
   }
 }
 
 .button2 {
   display: inline-block;
-  background-color: rgb(121, 169, 159);
+  background-color: rgb(255, 212, 73);
   color: white;
   text-decoration: none;
   padding: 1em;
@@ -178,14 +179,14 @@ hr {
 }
 @-webkit-keyframes pulse2 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(121, 169, 159);
-            box-shadow: 0 0 0 0 rgb(121, 169, 159);
+    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 73);
+            box-shadow: 0 0 0 0 rgb(255, 212, 73);
   }
 }
 @keyframes pulse2 {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(121, 169, 159);
-            box-shadow: 0 0 0 0 rgb(121, 169, 159);
+    -webkit-box-shadow: 0 0 0 0 rgb(255, 212, 73);
+            box-shadow: 0 0 0 0 rgb(255, 212, 73);
   }
 }
 
@@ -314,6 +315,10 @@ body {
 }
 
 /* SITE STRUCTURE */
+body {
+  background: rgb(24, 24, 24);
+}
+
 .site-header {
   position: absolute;
   width: 100%;
@@ -329,7 +334,7 @@ body {
           align-items: center;
 }
 .site-header a {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 .site-header h1 {
@@ -352,8 +357,8 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
-  background: rgb(0, 0, 0);
-  padding: 1em;
+  background: rgb(24, 24, 24);
+  padding: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,7 +367,7 @@ body {
           justify-content: center;
 }
 .site-footer a {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -395,8 +400,8 @@ section {
 /* HERO SECTION */
 .hero {
   padding: 6em 0;
-  color: white;
-  background: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(24, 24, 24);
   text-align: center;
   min-height: 100vh;
   display: -ms-grid;
@@ -405,7 +410,7 @@ section {
 }
 .hero h1 {
   margin-bottom: 0.25em;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 .hero p {
   margin: 1em auto;
