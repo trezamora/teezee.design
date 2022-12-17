@@ -6,10 +6,24 @@ body {
 
 /* FULL PAGE */
 
-.fullpage {
+.fullpage-main {
     height: 100vh;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
+}
+
+.fullpage-wrapper {
+    position: relative;
+
+    img {
+        position: relative;
+        z-index: 1;
+    }
+
+    h1 {
+        position: relative;
+        z-index: 2;
+    }
 }
 
 /* SECTION */
@@ -34,7 +48,7 @@ section {
     place-items: center;
 
     h1 {
-        font-size: 7rem;
+        font-size: 4rem;
         margin-bottom: .25em;
         color: $color-text-body-light;
     }
@@ -45,10 +59,126 @@ section {
 }
 
 @media (min-width: $breakpoint-small) {
+
     .hero {
         text-align: left;
 
         h1 {
+            font-size: 8rem;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+        }
+
+        p {
+            margin: 1em auto;
+        }
+    }
+
+}
+
+.about-home {
+    padding: 6em 0;
+    color: $color-text-body-light;
+    background: $color-background-dark;
+    min-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+
+    p {
+        margin: 1em auto;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .about-home {
+        text-align: left;
+
+        h1 {
+            font-size: 8rem;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+        }
+
+        p {
+            margin: 1em auto;
+        }
+    }
+
+}
+
+.studies-home {
+    padding: 6em 0;
+    color: $color-text-body-light;
+    background: $color-background-dark;
+    min-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+
+    p {
+        margin: 1em auto;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .studies-home {
+        text-align: left;
+
+        h1 {
+            font-size: 7rem;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+        }
+
+        p {
+            margin: 1em auto;
+        }
+    }
+
+}
+
+.contact-home {
+    padding: 6em 0;
+    color: $color-text-body-light;
+    background: $color-background-dark;
+    min-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+
+    p {
+        margin: 1em auto;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .contact-home {
+        text-align: left;
+
+        h1 {
+            font-size: 8rem;
             margin-bottom: .25em;
             color: $color-text-body-light;
         }
