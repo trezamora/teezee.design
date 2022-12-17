@@ -20,40 +20,49 @@
 </head>
 
 <body>
-
-    <header class="site-header">
-
-        <div class="site-id">
-            <div class="logo">
-                <a href="#"><img src="img/tzdlogowht.png" alt="TZD Square Logo" srcset="">
-            </div></a>
-            <a href="#">
-                <h1 class="hide-visually"><a href="#">TeeZee Design</h1>
-            </a>
-        </div>
-
-        <nav class="site-nav">
-            <ul>
-                <li><a href="index.html">Studies</a></li>
-                <li><a href="#">Process</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <main class="site-main">
+    <main class="site-main fullpage">
+        <header class="site-header">
+            <div class="site-id">
+                <div class="logo">
+                    <a href="#"><img src="img/tzdlogowht.png" alt="TZD Square Logo" srcset="">
+                </div></a>
+                <a href="#">
+                    <h1 class="hide-visually"><a href="#">Tre Zamora</h1>
+                </a>
+            </div>
+            <nav class="site-nav" data-navstate="closed">
+                <button class="menu-button"><span class="hide-visually">Menu</span>
+                    <svg class="open-animation" width="30" height="24">
+                        <rect id="bar-top" x="0" y="0" width="30" height="3" />
+                        <rect id="bar-middle" x="0" y="10" width="30" height="3" />
+                        <rect id="bar-bottom" x="0" y="20" width="30" height="3" />
+                    </svg>
+                </button>
+                <ul>
+                    <li><a href="#studies-home">Studies</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Process</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <section class="hero ">
             <div class="container">
-                <h1 class="headline">Tre Zamora Design</h1>
-                <p>UX/UI | Motion Graphics | Identity | 3D Graphics</p>
-                <a href="#section1" class="button1">Maybe a project?</a>
+                <div class="row swap">
+                    <div class="one-half">
+                        <img src="img/island.png" width="1500" height="1500" alt="Placeholder" srcset="">
+                    </div>
+                    <div class="one-half">
+                        <h1 class="headline">Tre Zamora</h1>
+                        <p>UX/UI / Motion Graphics / Identity /
+                            3D Graphics Designer</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="section1">
-
+        <section id="studies-home">
             <div class="container">
                 <div class="row">
                     <div class="one-half">
@@ -73,7 +82,6 @@
         </section>
 
         <section id="section2">
-
             <div class="container">
 
                 <div class="row swap">
@@ -114,7 +122,7 @@
         </section>
     </main>
 
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
         <nav class="site-nav">
             <ul>
                 <li><a href="index.html">Work</a></li>
@@ -122,7 +130,7 @@
                 <li><a href="#">About</a></li>
             </ul>
         </nav>
-    </footer>
+    </footer> -->
 
     <!-- SMOOTH SCROLL JS FILE CHRIS F -->
     <script src="js/smooth-scroll.polyfills.min.js"></script>
@@ -132,7 +140,7 @@
             speedAsDuration: true
         });
     </script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
