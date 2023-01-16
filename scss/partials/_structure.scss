@@ -4,56 +4,15 @@ body {
     background: $color-background-dark;
 }
 
-/* FULL PAGE */
-
-// .fullpage-main {
-//     height: 100vh;
-//     overflow-y: auto;
-//     scroll-snap-type: y mandatory;
-// }
-
-// .fullpage-wrapper {
-//     position: relative;
-
-//     img {
-//         position: relative;
-//         z-index: 1;
-//     }
-
-//     h1 {
-//         position: relative;
-//         z-index: 2;
-//     }
-// }
-
-/* SECTION */
-
-section {
-    padding: 4em 0;
-    min-height: 100vh;
-    display: grid;
-    align-items: center;
-}
-
-/* HERO SECTION */
+/* SECTIONS */
 
 .hero {
-    padding: 6em 0;
-    color: $color-text-body-light;
-    background: $color-background-dark;
-    min-height: 100vh;
     text-align: center;
-    display: grid;
-    place-items: center;
 
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-bottom: .25em;
         color: $color-text-body-light;
-    }
-
-    p {
-        margin: 1em auto;
     }
 }
 
@@ -63,73 +22,28 @@ section {
         text-align: left;
 
         h1 {
-            font-size: 8rem;
+            font-size: 5rem;
             margin-bottom: .25em;
             color: $color-text-body-light;
         }
 
         p {
-            margin: 1em auto;
+            max-width: 400px;
         }
     }
-
-}
-
-.about-home {
-    padding: 6em 0;
-    color: $color-text-body-light;
-    background: $color-background-dark;
-    min-height: 100vh;
-    text-align: center;
-    display: grid;
-    place-items: center;
-
-    h1 {
-        font-size: 4rem;
-        margin-bottom: .25em;
-        color: $color-text-body-light;
-    }
-
-    p {
-        margin: 1em auto;
-    }
-}
-
-@media (min-width: $breakpoint-small) {
-
-    .about-home {
-        text-align: left;
-
-        h1 {
-            font-size: 8rem;
-            margin-bottom: .25em;
-            color: $color-text-body-light;
-        }
-
-        p {
-            margin: 1em auto;
-        }
-    }
-
 }
 
 .studies-home {
-    padding: 6em 0;
-    color: $color-text-body-light;
-    background: $color-background-dark;
-    min-height: 100vh;
     text-align: center;
-    display: grid;
-    place-items: center;
 
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-bottom: .25em;
         color: $color-text-body-light;
     }
 
     p {
-        margin: 1em auto;
+        max-width: 400px;
     }
 }
 
@@ -139,52 +53,36 @@ section {
         text-align: left;
 
         h1 {
-            font-size: 7rem;
+            font-size: 5rem;
             margin-bottom: .25em;
             color: $color-text-body-light;
         }
-
-        p {
-            margin: 1em auto;
-        }
     }
-
 }
 
-.contact-home {
-    padding: 6em 0;
-    color: $color-text-body-light;
-    background: $color-background-dark;
-    min-height: 100vh;
+.about-home {
     text-align: center;
-    display: grid;
-    place-items: center;
 
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-bottom: .25em;
         color: $color-text-body-light;
     }
 
     p {
-        margin: 1em auto;
+        max-width: 400px;
     }
 }
 
 @media (min-width: $breakpoint-small) {
 
-    .contact-home {
+    .about-home {
         text-align: left;
 
         h1 {
-            font-size: 8rem;
+            font-size: 5rem;
             margin-bottom: .25em;
             color: $color-text-body-light;
         }
-
-        p {
-            margin: 1em auto;
-        }
     }
-
 }

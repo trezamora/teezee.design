@@ -15,31 +15,35 @@
     <!-- ADOBE FONTS -->
     <link rel="stylesheet" href="https://use.typekit.net/bpj7vvh.css">
 
+    <!-- FULLPAGE CSS FILE -->
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+
     <!-- MAIN CSS FILE -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <main class="site-main">
-        <header class="site-header">
-            <div class="site-id">
-                <div class="logo">
-                    <a href="#"><img src="img/tzdlogowht.png" alt="TZD Square Logo" srcset="">
-                </div></a>
-                <a href="#">
-                    <h1 class="hide-visually"><a href="#">Tre Zamora</h1>
-                </a>
-                <nav class="site-nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section class="hero">
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logo">
+                <a href="#"><img src="img/tzdlogowht.png" alt="TZD Square Logo" srcset="">
+            </div></a>
+            <a href="#">
+                <h1 class="hide-visually"><a href="#">Tre Zamora</h1>
+            </a>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="fullpage">
+        <section class="section hero">
             <div class="container">
                 <div class="row swap">
                     <div class="one-half">
@@ -54,59 +58,41 @@
             </div>
         </section>
 
-        <!-- <section id="section2" class="about-home">
+        <section class="section studies-home">
             <div class="container">
-                <div class="fullpage-wrapper">
-                    <div class="row swap">
-                        <div class="one-half">
-                            <img src="img/island.png" width="1500" height="1500" alt="Placeholder" srcset="">
-                        </div>
-                        <div class="one-half">
-                            <h1 class="headline">About
-                                Me</h1>
-                            <p>The Curiosity of a cat, Confidence of an Owl, and the exuberance of an Octopus.</p>
-                            <a href="#" class="button2">Click Click</a>
-                        </div>
+                <div class="row swap">
+                    <div class="one-half">
+                        <img src="img/isle_3dbuild.png" width="1500" height="1500" alt="Placeholder" srcset="">
+                    </div>
+                    <div class="one-half">
+                        <h1 class="headline">Isle Mobile App</h1>
+                        <p>UX/UI Design</p>
+                        <a href="#" class="button2">Click Click</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="section3" class="studies-home">
+        <section class="section about-home">
             <div class="container">
-                <div class="fullpage-wrapper">
-                    <div class="row swap">
-                        <div class="one-half">
-                            <img src="img/isle_3dbuild.png" width="1500" height="1500" alt="Placeholder" srcset="">
-                        </div>
-                        <div class="one-half">
-                            <h1 class="headline">Isle</h1>
-                            <h1>Mobile App</h1>
-                            <p>UX/UI Design</p>
-                            <a href="#" class="button2">Click Click</a>
-                        </div>
+                <div class="row swap">
+                    <div class="one-half">
+                        <img src="img/island.png" width="1500" height="1500" alt="Placeholder" srcset="">
+                    </div>
+                    <div class="one-half">
+                        <h1 class="headline">About
+                            Me</h1>
+                        <p>The Curiosity of a cat, Confidence of an Owl, and the exuberance of an Octopus.</p>
+                        <a href="#" class="button2">Click Click</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="section4" class="contact-home">
-            <div class="container">
-                <div class="fullpage-wrapper">
-                    <div class="row swap">
-                        <div class="one-half">
-                            <img src="img/island.png" width="1500" height="1500" alt="Placeholder" srcset="">
-                        </div>
-                        <div class="one-half">
-                            <h1 class="headline">Say hello</h1>
-                            <p>trezamoradesign@gmail.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- <section class="section s4 contact-home">
         </section> -->
-    </main>
+    </div>
+    <!-- </main> -->
 
     <!-- <footer class="site-footer">
         <nav class="site-nav">
@@ -117,6 +103,9 @@
             </ul>
         </nav>
     </footer> -->
+
+    <!-- SMOOTH SCROLL JS FILE CHRIS F -->
+    <script src="./js/fullpage.min.js"></script>
 
     <!-- SMOOTH SCROLL JS FILE CHRIS F -->
     <script src="js/smooth-scroll.polyfills.min.js"></script>
