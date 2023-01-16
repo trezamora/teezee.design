@@ -211,7 +211,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100vh;
   max-width: 1500px;
 }
 
@@ -387,6 +386,28 @@ body {
     text-align: left;
   }
   .about-home h1 {
+    font-size: 5rem;
+    margin-bottom: 0.25em;
+    color: rgb(255, 255, 255);
+  }
+}
+.contact-home {
+  text-align: center;
+}
+.contact-home h1 {
+  font-size: 5rem;
+  margin-bottom: 0.25em;
+  color: rgb(255, 255, 255);
+}
+.contact-home p {
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .contact-home {
+    text-align: left;
+  }
+  .contact-home h1 {
     font-size: 5rem;
     margin-bottom: 0.25em;
     color: rgb(255, 255, 255);

@@ -86,3 +86,30 @@ body {
         }
     }
 }
+
+.contact-home {
+    text-align: center;
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: .25em;
+        color: $color-text-body-light;
+    }
+
+    p {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: $breakpoint-small) {
+
+    .contact-home {
+        text-align: left;
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: .25em;
+            color: $color-text-body-light;
+        }
+    }
+}
