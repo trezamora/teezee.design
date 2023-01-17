@@ -10,7 +10,8 @@
     display: grid;
     place-items: center;
     z-index: 5;
-    background-image: url('../../img/desk-setup.jpg');
+    background-color: $color-background-dark ;
+    background-image: url('../img/desk-setup.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;

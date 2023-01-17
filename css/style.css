@@ -358,6 +358,14 @@ body {
 .studies-home p {
   max-width: 400px;
 }
+.studies-home .studies-text h1 {
+  text-align: center;
+}
+.studies-home .studies-text p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 3em 0;
+}
 
 @media (min-width: 768px) {
   .studies-home {
@@ -485,7 +493,8 @@ body {
   display: grid;
   place-items: center;
   z-index: 5;
-  background-image: url("../../img/desk-setup.jpg");
+  background-color: rgb(24, 24, 24);
+  background-image: url("../img/desk-setup.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
