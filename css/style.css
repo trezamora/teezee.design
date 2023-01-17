@@ -485,7 +485,7 @@ body {
 /* ANIMATIONS */
 /* ANIMATED INTRO */
 .splash-intro {
-  position: fixed;
+  position: static;
   width: 100%;
   height: 100vh;
   color: white;
@@ -493,12 +493,13 @@ body {
   display: grid;
   place-items: center;
   z-index: 5;
-  background-color: rgb(24, 24, 24);
+  background-color: red;
   background-image: url("../img/desk-setup.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   /* ANIMATION CODE   */
   -webkit-animation-name: intro-animation;
           animation-name: intro-animation;
@@ -510,23 +511,19 @@ body {
 
 @-webkit-keyframes intro-animation {
   80% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    height: 100vh;
   }
   100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    height: 0;
   }
 }
 
 @keyframes intro-animation {
   80% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    height: 100vh;
   }
   100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    height: 0;
   }
 }
 .splash-intro .splash-logo {
@@ -544,55 +541,55 @@ body {
   /* ANIMATION */
   -webkit-animation-name: logo-animation;
           animation-name: logo-animation;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-fill-mode: forward;
           animation-fill-mode: forward;
 }
 
 @-webkit-keyframes logo-animation {
   0% {
-    opcity: 0;
+    opacity: 0;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
   25% {
-    opcity: 1;
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  75% {
-    opcity: 1;
+  50% {
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    opcity: 1;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
 @keyframes logo-animation {
   0% {
-    opcity: 0;
+    opacity: 0;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
   25% {
-    opcity: 1;
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  75% {
-    opcity: 1;
+  50% {
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    opcity: 1;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 #section1 .one-half:nth-child(1) {

@@ -3,19 +3,20 @@
 /* ANIMATED INTRO */
 
 .splash-intro {
-    position: fixed;
+    position: static;
     width: 100%;
     height: 100vh;
     color: white;
     display: grid;
     place-items: center;
     z-index: 5;
-    background-color: $color-background-dark ;
+    background-color: red;
     background-image: url('../img/desk-setup.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 
     /* ANIMATION CODE   */
     animation-name: intro-animation;
@@ -27,11 +28,13 @@
     0% {}
 
     80% {
-        transform: translateY(0%);
+        // transform: translateY(0%);
+        height: 100vh;
     }
 
     100% {
-        transform: translateY(-100%);
+        // transform: translateY(-100%);
+        height: 0;
     }
 }
 
@@ -47,29 +50,29 @@
 
     /* ANIMATION */
     animation-name: logo-animation;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-fill-mode: forward;
 }
 
 @keyframes logo-animation {
     0% {
-        opcity: 0;
+        opacity: 0;
         transform: scale(.8);
     }
 
     25% {
-        opcity: 1;
+        opacity: 1;
         transform: scale(1);
     }
 
-    75% {
-        opcity: 1;
+    50% {
+        opacity: 1;
         transform: scale(1);
     }
 
     100% {
-        opcity: 1;
-        transform: scale(1.2);
+        opacity: 0;
+        transform: scale(1.1);
     }
 }
 
