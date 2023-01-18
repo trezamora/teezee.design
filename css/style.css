@@ -333,15 +333,16 @@ body {
 /* SITE STRUCTURE */
 body {
   background: rgb(24, 24, 24);
+  background-image: url(../img/tztd-background-blue.svg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* SECTIONS */
 .hero {
   text-align: center;
-  background-image: url(../img/3d-create-graphic.png);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .hero h1 {
   font-size: 5rem;
@@ -397,10 +398,6 @@ body {
 }
 .about-home {
   text-align: center;
-  background-image: url(../img/3d-process-graphic.png);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .about-home h1 {
   font-size: 5rem;
@@ -422,28 +419,6 @@ body {
   .about-home p {
     font-size: 1.25rem;
     width: 500px;
-  }
-}
-.contact-home {
-  text-align: center;
-}
-.contact-home h1 {
-  font-size: 5rem;
-  margin-bottom: 0.25em;
-  color: rgb(255, 255, 255);
-}
-.contact-home p {
-  max-width: 400px;
-}
-
-@media (min-width: 768px) {
-  .contact-home {
-    text-align: left;
-  }
-  .contact-home h1 {
-    font-size: 5rem;
-    margin-bottom: 0.25em;
-    color: rgb(255, 255, 255);
   }
 }
 /* TO HIDE SOMETHING VISUALLY */
