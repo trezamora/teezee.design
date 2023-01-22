@@ -50,3 +50,13 @@ new fullpage('#fullpage', {
     autoScrolling: true,
     navigation: true,
 });
+
+// LOTTIE READER
+// SECTIONS
+// var animation = bodymovin.loadAnimation({
+//     container: document.getElementById('portfolio-background'),
+//     render: 'svg',
+//     loop: true,
+//     autoplay: true,
+//     path: 'js/portfolio-background.json'
+// });

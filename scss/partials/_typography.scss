@@ -6,6 +6,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
     color: $color-text-body-light;
 }
@@ -20,7 +21,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: $font-family-sans;
 }
 
@@ -38,6 +40,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
     margin: 0 0 .5em 0;
 }
@@ -70,10 +73,15 @@ h3 {
     line-height: 1.2;
 }
 
+h4 {
+    font-size: 1.10rem;
+    line-height: 1.3;
+}
+
 /* LIMIT # OF CHARACTERS PER LINE */
 
 p {
-    max-width: 40em;
+    max-width: 55em;
 }
 
 /* LINKS */
@@ -90,9 +98,10 @@ a {
 
 hr {
     border: 0;
+    width: 500px;
     height: 1px;
-    background-color: rgba(0, 0, 0, .2);
-    margin: 3em 0;
+    background-color: $color-background-light;
+    margin: 1em 0;
 }
 
 /* TYPE SPECIMEN */

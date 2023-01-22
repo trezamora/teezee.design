@@ -22,7 +22,7 @@
     }
 }
 
-// /* SITE NAV */
+/* SITE NAV */
 
 .site-nav {
     ul {
@@ -46,11 +46,24 @@
 }
 
 .site-id {
-    position: fixed;
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 99;
     padding-left: 1em;
     padding-top: 1em;
+}
+
+/* SITE FOOTER */
+
+.site-footer {
+    background: $color-background-dark;
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+
+    a {
+        color: $color-background-light;
+    }
 }

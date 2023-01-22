@@ -1,0 +1,67 @@
+/* CASE STUDY STYLING */
+
+.project-hero {
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .project-hero {
+        margin: 2em;
+    }
+}
+
+.project-text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    .project-skills {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.intro-full-width {
+    background-color: $color-background-light;
+    min-height: 50vh;
+    padding: 6em 0;
+
+    h3,
+    p {
+        color: $color-text-body-dark;
+    }
+}
+
+.image-banner {
+
+    img {
+        width: 98%;
+        position: relative;
+        top: -150px;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+    }
+}
+
+.logo-color {
+    padding: 2em 0;
+}
+
+.typography {
+    padding: 2em 0;
+}
+
+.icons {
+    padding: 2em 0;
+}
+
+.charts {
+    padding: 2em 0;
+}
