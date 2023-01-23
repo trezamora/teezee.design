@@ -1,3 +1,25 @@
+/* CASE STUDY SECTIONS */
+
+.design-section {
+    min-height: 50vh;
+}
+
+.info-section {
+    min-height: 60vh;
+    padding: 4em 0;
+    padding-bottom: 1em;
+    padding-top: 0;
+}
+
+.user-section {
+    min-height: 50vh;
+}
+
+.display-section {
+    min-height: auto;
+    padding-bottom: 5em;
+}
+
 /* CASE STUDY STYLING */
 
 .project-hero {
@@ -64,4 +86,24 @@
 
 .charts {
     padding: 2em 0;
+}
+
+.piko-full-width {
+    background-image: url('../../img/piko-trangles-top.svg'), url(../../img/piko-trangles-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    background-color: $color-background-light;
+    min-height: 50vh;
+    padding: 6em 0;
+
+    h3,
+    p {
+        color: $color-text-body-dark;
+    }
+}
+
+.piko-icons {
+    background-color: $color-background-light;
+    min-height: 40vh;
+    padding: 3em 0;
 }

@@ -60,3 +60,11 @@ new fullpage('#fullpage', {
 //     autoplay: true,
 //     path: 'js/portfolio-background.json'
 // });
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('hero-animation'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/hero-animation.json'
+});

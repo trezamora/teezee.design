@@ -1,27 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2044.542" height="49.791" viewBox="0 0 2044.542 49.791">
-  <g id="pikotriangles-08" transform="translate(41 -150.211)">
-    <path id="Path_679" data-name="Path 679" d="M167.194,203.64l41-49.79H126.18Z" transform="translate(-3.965 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_680" data-name="Path 680" d="M251.194,203.64l41-49.79H210.18Z" transform="translate(-5.957 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_681" data-name="Path 681" d="M335.044,203.64l41-49.79H294.03Z" transform="translate(-7.946 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_682" data-name="Path 682" d="M419.044,203.64l41-49.79H378.03Z" transform="translate(-9.938 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_683" data-name="Path 683" d="M502.594,203.64l41.014-49.79H461.59Z" transform="translate(-11.92 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_684" data-name="Path 684" d="M586.594,203.64l41.014-49.79H545.59Z" transform="translate(-13.912 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_685" data-name="Path 685" d="M670.154,203.64l41-49.79H629.14Z" transform="translate(-15.894 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_686" data-name="Path 686" d="M754.154,203.64l41-49.79H713.14Z" transform="translate(-17.886 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_687" data-name="Path 687" d="M837.7,203.64l41.014-49.79H796.7Z" transform="translate(-19.868 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_688" data-name="Path 688" d="M921.7,203.64l41.014-49.79H880.7Z" transform="translate(-21.86 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_689" data-name="Path 689" d="M1005.263,203.64l41-49.79H964.25Z" transform="translate(-23.842 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_690" data-name="Path 690" d="M1089.264,203.64l41-49.79H1048.25Z" transform="translate(-25.834 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_691" data-name="Path 691" d="M1172.814,203.64l41.013-49.79H1131.81Z" transform="translate(-27.816 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_692" data-name="Path 692" d="M1256.814,203.64l41.013-49.79H1215.81Z" transform="translate(-29.808 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_693" data-name="Path 693" d="M1340.374,203.64l41-49.79H1299.36Z" transform="translate(-31.789 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_694" data-name="Path 694" d="M1424.373,203.64l41-49.79H1383.36Z" transform="translate(-33.782 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_695" data-name="Path 695" d="M1507.924,203.64l41.014-49.79H1466.92Z" transform="translate(-35.763 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_696" data-name="Path 696" d="M1591.924,203.64l41.014-49.79H1550.92Z" transform="translate(-37.756 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_697" data-name="Path 697" d="M1675.484,203.64l41-49.79H1634.47Z" transform="translate(-39.737 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_1011" data-name="Path 1011" d="M1675.484,203.64l41-49.79H1634.47Z" transform="translate(205.046 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_698" data-name="Path 698" d="M1759.484,203.64l41-49.79H1718.47Z" transform="translate(-41.73 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_1012" data-name="Path 1012" d="M1759.484,203.64l41-49.79H1718.47Z" transform="translate(203.054 -3.638)" fill="#1d1d1d"/>
-    <path id="Path_701" data-name="Path 701" d="M0,203.64l41.014-49.79H-41Z" transform="translate(0 -3.638)" fill="#1d1d1d"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2044.5 49.8" style="enable-background:new 0 0 2044.5 49.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;}
+	.st1{fill:#1D1D1D;}
+</style>
+<g id="pikotriangles-08" transform="translate(41 -150.211)" class="st0">
+	<path id="Path_679" class="st1" d="M163.2,200l41-49.8h-82L163.2,200z"/>
+	<path id="Path_679_00000080199198769570151040000005888877087257174715_" class="st1" d="M82,200l41-49.8H41L82,200z"/>
+	<path id="Path_680" class="st1" d="M245.2,200l41-49.8h-82L245.2,200z"/>
+	<path id="Path_681" class="st1" d="M327.1,200l41-49.8h-82L327.1,200z"/>
+	<path id="Path_682" class="st1" d="M409.1,200l41-49.8h-82L409.1,200z"/>
+	<path id="Path_683" class="st1" d="M490.7,200l41-49.8h-82L490.7,200z"/>
+	<path id="Path_684" class="st1" d="M572.7,200l41-49.8h-82L572.7,200z"/>
+	<path id="Path_685" class="st1" d="M654.3,200l41-49.8h-82L654.3,200z"/>
+	<path id="Path_686" class="st1" d="M736.3,200l41-49.8h-82L736.3,200z"/>
+	<path id="Path_687" class="st1" d="M817.8,200l41-49.8h-82L817.8,200z"/>
+	<path id="Path_688" class="st1" d="M899.8,200l41-49.8h-82L899.8,200z"/>
+	<path id="Path_689" class="st1" d="M981.4,200l41-49.8h-82L981.4,200z"/>
+	<path id="Path_690" class="st1" d="M1063.4,200l41-49.8h-82L1063.4,200z"/>
+	<path id="Path_691" class="st1" d="M1145,200l41-49.8h-82L1145,200z"/>
+	<path id="Path_692" class="st1" d="M1227,200l41-49.8h-82L1227,200z"/>
+	<path id="Path_693" class="st1" d="M1308.6,200l41-49.8h-82L1308.6,200z"/>
+	<path id="Path_694" class="st1" d="M1390.6,200l41-49.8h-82L1390.6,200z"/>
+	<path id="Path_695" class="st1" d="M1472.2,200l41-49.8h-82L1472.2,200z"/>
+	<path id="Path_696" class="st1" d="M1554.2,200l41-49.8h-82L1554.2,200z"/>
+	<path id="Path_697" class="st1" d="M1635.7,200l41-49.8h-82L1635.7,200z"/>
+	<path id="Path_1011" class="st1" d="M1880.5,200l41-49.8h-82L1880.5,200z"/>
+	<path id="Path_698" class="st1" d="M1717.8,200l41-49.8h-82L1717.8,200z"/>
+	<path id="Path_1012" class="st1" d="M1962.5,200l41-49.8h-82L1962.5,200z"/>
+	<path id="Path_701" class="st1" d="M0,200l41-49.8h-82L0,200z"/>
+</g>
 </svg>
