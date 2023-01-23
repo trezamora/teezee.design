@@ -467,10 +467,10 @@ body {
   left: -9999px;
 }
 
-.hero-right {
+.isle-hero-right {
   width: 50%;
   height: 100%;
-  background: url(../img/isle_hero.png);
+  background: url(../img/isle-hero.jpg);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -479,14 +479,14 @@ body {
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.hero-right:hover {
+.isle-hero-right:hover {
   width: 55%;
 }
 
-.user-right {
+.piko-hero-right {
   width: 50%;
-  height: 60%;
-  background: url(../img/isle_hero.png);
+  height: 100%;
+  background: url(../img/piko-hero.jpg);
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s;
@@ -495,24 +495,23 @@ body {
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.user-left {
-  margin-right: -25px;
-  width: 50%;
-  height: 60%;
-  background: url(../img/isle_hero.png);
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-.user-right:hover {
+.piko-hero-right:hover {
   width: 55%;
 }
 
-.user-left:hover {
+.forge-hero-right {
+  width: 50%;
+  height: 100%;
+  background: url(../img/forge-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.forge-hero-right:hover {
   width: 55%;
 }
 
@@ -869,7 +868,7 @@ body {
 .image-banner img {
   width: 98%;
   position: relative;
-  top: -150px;
+  top: -85px;
   margin: 0 auto;
   text-align: center;
   display: -ms-grid;
