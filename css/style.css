@@ -879,6 +879,13 @@ body {
   padding: 2em 0;
 }
 
+.info-text {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .typography {
   padding: 2em 0;
 }
