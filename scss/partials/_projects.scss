@@ -37,11 +37,16 @@
 .project-text {
     max-width: 500px;
     margin: 0 auto;
-    text-align: left;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    // border: 1px solid blue;
+
+    h1.headline {
+        justify-content: flex-start;
+        // border: 1px solid red;
+    }
 
     .project-skills {
         display: flex;

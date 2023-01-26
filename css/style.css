@@ -831,7 +831,6 @@ body {
 .project-text {
   max-width: 500px;
   margin: 0 auto;
-  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -845,6 +844,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.project-text h1.headline {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .project-text .project-skills {
   display: -webkit-box;
