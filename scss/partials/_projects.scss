@@ -41,15 +41,20 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
 
-    h1.headline {
-        justify-content: flex-start;
-        // border: 1px solid red;
+    h1 {
+        margin-bottom: .25em;
+        align-self: flex-start;
+    }
+
+    h3 {
+        margin: .5em 0;
+        align-self: flex-start;
     }
 
     .project-skills {
         display: flex;
+        gap: 15px;
         justify-content: space-between;
     }
 }
@@ -115,4 +120,18 @@
     background-color: $color-background-light;
     min-height: 40vh;
     padding: 3em 0;
+}
+
+.featured-section {
+    margin: 0 auto;
+    min-height: 50vh;
+    padding: 5em 2em;
+    background-color: $color-background-light;
+
+    h3 {
+        color: $color-text-body-dark;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
 }
