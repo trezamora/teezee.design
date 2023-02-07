@@ -1,7 +1,15 @@
 /* CASE STUDY SECTIONS */
 
+.content-wrapper {
+    background-color: rgba(24, 24, 24, .5);
+}
+
 .design-section {
     min-height: 50vh;
+
+    h1 {
+        padding: .25em 0;
+    }
 }
 
 .info-section {
@@ -9,6 +17,7 @@
     padding: 4em 0;
     padding-bottom: 1em;
     padding-top: 0;
+
 }
 
 .user-section {
@@ -23,7 +32,7 @@
 /* CASE STUDY STYLING */
 
 .project-hero {
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     display: flex;
 }
@@ -70,6 +79,13 @@
     }
 }
 
+.project-container {
+    background-image: url('../img/01.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .image-banner {
 
     img {
@@ -110,7 +126,7 @@
     min-height: 50vh;
     padding: 6em 0;
 
-    h3,
+    h1,
     p {
         color: $color-text-body-dark;
     }
