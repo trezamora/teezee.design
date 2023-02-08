@@ -1,7 +1,7 @@
 /* CASE STUDY SECTIONS */
 
 .content-wrapper {
-    background-color: rgba(24, 24, 24, .5);
+    background-color: rgba(13, 44, 73, 0.8);
 }
 
 .design-section {
@@ -25,8 +25,9 @@
 }
 
 .display-section {
+    background-color: $color-background-light;
     min-height: auto;
-    padding-bottom: 5em;
+    padding: 7em 0;
 }
 
 /* CASE STUDY STYLING */
@@ -116,6 +117,10 @@
 
 .charts {
     padding: 2em 0;
+
+    .two-thirds {
+        padding: 2em;
+    }
 }
 
 .piko-full-width {
@@ -123,7 +128,7 @@
     background-repeat: no-repeat;
     background-position: center top, center bottom;
     background-color: $color-background-light;
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 6em 0;
 
     h1,
@@ -140,9 +145,10 @@
 
 .featured-section {
     margin: 0 auto;
-    min-height: 50vh;
-    padding: 5em 2em;
+    min-height: 80vh;
+    padding: 5em 0;
     background-color: $color-background-light;
+    border: 1px solid red;
 
     h3 {
         color: $color-text-body-dark;
