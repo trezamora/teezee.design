@@ -5,6 +5,7 @@
 }
 
 .design-section {
+    padding-top: 5em;
     min-height: 50vh;
 
     h1 {
@@ -28,6 +29,10 @@
     background-color: $color-background-light;
     min-height: auto;
     padding: 7em 0;
+}
+
+.number-block {
+    padding-right: 3em;
 }
 
 /* CASE STUDY STYLING */
@@ -87,10 +92,7 @@
 }
 
 .project-container {
-    background-image: url('../img/01.png');
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+    padding: 3em;
 }
 
 .image-banner {

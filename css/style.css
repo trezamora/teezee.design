@@ -461,6 +461,18 @@ body {
           align-items: flex-start;
 }
 
+.abottom {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .isle-hero-right {
   width: 50%;
   height: 100%;
@@ -829,6 +841,7 @@ body {
 }
 
 .design-section {
+  padding-top: 5em;
   min-height: 50vh;
 }
 .design-section h1 {
@@ -850,6 +863,10 @@ body {
   background-color: rgb(244, 244, 244);
   min-height: auto;
   padding: 7em 0;
+}
+
+.number-block {
+  padding-right: 3em;
 }
 
 /* CASE STUDY STYLING */
@@ -919,10 +936,7 @@ body {
   }
 }
 .project-container {
-  background-image: url("../img/01.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+  padding: 3em;
 }
 
 .image-banner img {
