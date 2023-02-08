@@ -455,6 +455,12 @@ body {
   left: -9999px;
 }
 
+.atop {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .isle-hero-right {
   width: 50%;
   height: 100%;
@@ -900,13 +906,18 @@ body {
 .intro-full-width {
   background-color: rgb(244, 244, 244);
   min-height: 50vh;
-  padding: 6em 0;
+  padding: 14em 0;
 }
 .intro-full-width h3,
 .intro-full-width p {
   color: rgb(0, 0, 0);
 }
 
+@media (max-width: 768px) {
+  .intro-full-width {
+    padding: 6em 0;
+  }
+}
 .project-container {
   background-image: url("../img/01.png");
   background-position: right bottom;
@@ -917,7 +928,7 @@ body {
 .image-banner img {
   width: 98%;
   position: relative;
-  top: -85px;
+  top: -90px;
   margin: 0 auto;
   text-align: center;
   display: -ms-grid;
@@ -974,7 +985,6 @@ body {
   min-height: 80vh;
   padding: 5em 0;
   background-color: rgb(244, 244, 244);
-  border: 1px solid red;
 }
 .featured-section h3 {
   color: rgb(0, 0, 0);
